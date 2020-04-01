@@ -5,14 +5,31 @@
     align-items: center;
     font-weight: lighter;
     font-size: 1.4em;
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(20,20,20);
     color: bisque;
     flex: 1;
-    outline: 1px solid #888;
+    cursor: default;
 }
 
 .Operator {
-    background-color: rgb(255, 123, 0);
+    background-color: rgb(20,20,20);
     color: bisque;
-    
+    cursor: default;
+}
+
+.button-wrapper:hover {
+    height: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    font-size: 1.4em;
+    background-color: rgb(25,25,25);
+    color: bisque;
+    flex: 1;
+}
+
+.Operator:hover {
+    background-color: rgb(25,25,25);
+    color: bisque;
 }

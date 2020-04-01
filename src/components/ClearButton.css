@@ -5,8 +5,24 @@
     align-items: center;
     font-weight: lighter;
     font-size: 1.4em;
-    background-color: rgb(20,20,20);
+    background-color: rgb(25,25,25);
     color: bisque;
     flex: 1;
-    outline: 1px solid #888;
+    cursor: default;
+}
+
+.clear-btn:hover {
+    height: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    font-size: 1.4em;
+    background-color: rgb(55,55,55);
+    color: bisque;
+    flex: 1;
+    -o-transition:color .4s ease-out, background 0.4s ease-in;
+  -ms-transition:color .4s ease-out, background 0.4s ease-in;
+  -moz-transition:color .4s ease-out, background 0.4s ease-in;
+  -webkit-transition:color .4s ease-out, background 0.4s ease-in;
 }

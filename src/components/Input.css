@@ -3,10 +3,8 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    font-weight: bold;
     font-size: 1.4em;
-    background-image: linear-gradient(rgb(15,15,15),rgb(5,5,5));
+    background-image: linear-gradient(rgb(26, 96, 255),rgb(14, 90, 255));
     color: bisque;
     padding: 0.5em;
-    outline: 1px solid #888;
 }
